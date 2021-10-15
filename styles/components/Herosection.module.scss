@@ -1,0 +1,43 @@
+.heroSection{
+    background:url("/images/curve.svg") no-repeat top right, #1956B4 ;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-size: 60% 100%;
+}
+.heroWrapper{
+    background-color: #1956B4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+    .heroText{
+        padding-left: 56px;
+        color: white;
+        font-family: "Neutrif Pro";
+        padding-top: 167px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        font-family:NeutrifPro;
+    }
+        .heroInfo1{
+            margin-top: 12px;
+            
+        }
+        .heroInfo2{
+            margin-top: 2rem;
+        }
+        .heroInfo3{
+            margin-top: 2rem;
+        }
+        .heroImage{
+            padding-top: 104px;
+            
+            
+        }       
+.callBtn{
+    background-color: #ff7c01;
+    border-radius: 12px;
+} 

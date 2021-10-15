@@ -1,0 +1,53 @@
+.container {
+    min-height: 100vh;
+    background: url('/images/curve.svg') no-repeat right center,url('/curve2.svg') no-repeat bottom left,#1856b4;
+    background-size: contain;
+
+    .wrapper {
+        display: flex;
+        align-items: center;
+        height: 100vh;
+        padding:0rem 5rem;
+
+        .left {
+            width: 50%;
+
+
+            .title {
+                font-family: "Neutrif Pro";
+                font-size:4rem;
+                color:#fff;
+            }
+
+            .subtitle {
+                font-family: "Neutrif Pro";
+                font-size:1.8rem;
+                color:#fff;
+                margin-top: 1rem;
+            }
+
+            .description {
+                font-family: "Neutrif Pro";
+                font-size:1.2rem;
+                color:#fff;
+                margin-top:1.6rem;
+            }
+
+            .btn {
+                border-radius: 12px;
+                background-color: #ff7c01;
+                color:#fff;
+                width: 70%;
+                padding:0.8rem 0rem;
+                margin-top: 2rem;
+                border:none;
+
+            }
+        }
+
+        .right {
+            width: 50%;
+            padding-left:1.8rem;
+        }
+    }
+}

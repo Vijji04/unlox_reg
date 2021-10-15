@@ -1,0 +1,153 @@
+.registerProfessionalContainer {
+    background-image: linear-gradient(157deg, rgba(181, 249, 253, 0.3) 0%, rgba(132, 164, 212, 0.3) 100%);
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    padding-top: 50px;
+
+    .registerProfessionalWrapper {
+        padding: 0rem 6rem;
+        font-family: "Neutrif Pro";
+        padding-bottom: 12rem;
+
+        @media only screen and (max-width: 870px) {
+            padding: 0rem 2rem;
+            padding-bottom: 8rem;
+        }
+
+        @media only screen and (max-width: 500px) {
+            padding: 0rem 1rem;
+            padding-bottom: 4rem;
+        }
+
+        .topSection {
+            display: flex;
+            align-items: center;
+            margin: 8rem 0rem;
+            flex-direction: row-reverse;
+
+            @media only screen and (max-width: 1000px) {
+                margin: 8rem 0rem;
+            }
+
+            @media only screen and (max-width: 800px) {
+                flex-direction: column-reverse !important;
+                margin: 2.5rem 0rem;
+            }
+
+            .deets {
+                width: 50%;
+                font-family: "Neutrif Pro";
+
+                @media only screen and (max-width: 800px) {
+                    margin-top: 3rem;
+                    width: 90%;
+                    text-align: center;
+                }
+
+                @media only screen and (max-width: 540px) {
+                    width: 100%;
+                }
+
+                .title {
+                    color: #1956b4;
+                    font-size: 2.5rem;
+                    font-weight: bold;
+
+                    @media only screen and (max-width: 1150px) {
+                        font-size: 2rem;
+                    }
+                }
+
+                .theText {
+                    color: #507fc6;
+                    margin: 1.1rem 0rem;
+                    font-size: 1.2rem;
+
+                    @media only screen and (max-width: 1150px) {
+                        font-size: 1rem;
+                        margin: 0.8rem 0rem;
+                    }
+                }
+
+                .callBtn {
+                    border-radius: 8px;
+                    background-image: linear-gradient(to right, #ff928e 0%, #fd6f61 100%);
+                    border: none;
+                    padding: 0.5rem 2rem;
+                    margin-top: 1.2rem;
+
+                    @media only screen and (max-width: 600px) {
+                        padding: 0.4rem 1.5rem;
+                    }
+                }
+            }
+
+            .ImageSec {
+                display: block;
+                align-items: center;
+                width: 50%;
+                height: fit-content;
+                padding: 1rem 3rem;
+
+                @media only screen and (max-width: 1050px) {
+                    padding: 1rem;
+                }
+
+                @media only screen and (max-width: 800px) {
+                    width: 70%;
+                }
+
+                @media only screen and (max-width: 440px) {
+                    width: 90%;
+                }
+            }
+        }
+
+        .registerFormSec {
+            border-radius: 18px;
+            background-color: #dceaff;
+            padding: 3rem 2.5rem 3.5rem 2.5rem;
+            margin-top: 1.2rem;
+            .formTitle {
+                color: #fe8077;
+                font-size: 1.8rem;
+            }
+
+            .formGroup {
+                margin-top: 2.6rem;
+                display: flex;
+                flex-direction: column;
+
+                .label {
+                    color: #7099f9;
+                }
+
+                .formInput {
+                    border-radius: 8px;
+                    box-shadow: 0 12px 20px 0 rgba(82, 125, 255, 0.25);
+                    background-color: #fff;
+                    border: none;
+                    height: 3rem;
+                    color: #23448e;
+                    padding-left: 1.2rem;
+                }
+
+                .submitButton {
+                    border-radius: 16px;
+                    box-shadow: 0 12px 20px 0 rgba(6, 11, 25, 0.25);
+                    background-image: linear-gradient(to right, #ff928e 0%, #fd6f61 100%);
+                    height: 3.3rem;
+                    border: none;
+                    margin-top: 1.7rem;
+                    font-size: 1.2rem;
+                    transition: all 0.5s linear;
+
+                    &:active {
+                        transform: scale(0.85);
+                    }
+                }
+            }
+        }
+    }
+}
